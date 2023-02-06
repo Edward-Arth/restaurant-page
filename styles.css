@@ -1,3 +1,13 @@
+@font-face {
+    font-family: creepyFont;
+    src: url(./fonts/Creepster-Regular.ttf)
+}
+
+@font-face {
+    font-family: creepyBody;
+    src: url(./fonts/MysteryQuest-Regular.ttf)
+}
+
 body {
     margin:0;
     padding:0;
@@ -9,13 +19,13 @@ body {
     width: 100vw;
     height: 100vh;
     display:flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 #homepage {
     width:50%;
-    min-width: 750px;
+    min-width: 810px;
     height:60%;
     min-height: 562px;
     background-color: lavenderblush;
@@ -37,45 +47,41 @@ body {
     font-family: "creepyFont"
 }
 
-#description {
+.homepageDesc {
     margin-top: 5%;
     font-size: 160%;
     font-family: "creepyBody"
 }
 
-#description2 {
-    margin-top: 7%;
-    font-size: 160%;
-    font-family: "creepyBody";
-}
-
-#restaurant {
+.homepagePics {
     width:250px;
     height:250px;
     margin-top: 6%;
-    border-radius: 200px;
-}
-
-#dish1 {
-    width:250px;
-    height:250px;
-    margin-top: 6%;
-    border-radius: 200px;
+    margin-right: 15px;
+    border-radius: 5px;
 }
 
 #dish2 {
-    width:250px;
-    height:250px;
-    margin-top: 6%;
-    border-radius: 200px;
+    margin-left: 15px;
 }
 
-@font-face {
-    font-family: creepyFont;
-    src: url(Creepster-Regular.ttf)
+#buttons {
+    margin-bottom: 3%;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    margin-top: 2%;
 }
 
-@font-face {
+#menu {
+    margin-right: 20%;
+}
+
+.myButtons {
+    border-style: none;
+    border-bottom: solid;
+    background: none;
+    font-size: 350%;
+    font-weight: bolder;
     font-family: creepyBody;
-    src: url(MysteryQuest-Regular.ttf)
 }
