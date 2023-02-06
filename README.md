@@ -1,1 +1,1 @@
-# restaurant-page
+In this project, I practice DOM manipulation and webpack by creating a restaurant page.
