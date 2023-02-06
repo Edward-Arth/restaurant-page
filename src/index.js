@@ -1,5 +1,6 @@
 import homepageGen from './homepage.js';
 import menuGen from './menu.js';
+import contactGen from './contact.js';
 
 const content = document.getElementById("content");
 
@@ -27,5 +28,10 @@ contact.id = "contact";
 contact.classList.add("myButtons");
 contact.textContent = "Contact Us";
 buttons.appendChild(contact);
+
+contact.addEventListener('click', () => {
+    wipePage ();
+    contactGen ();
+});
 
 homepageGen ();
