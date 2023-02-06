@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homepage {
+    width:50%;
+    min-width: 750px;
+    height:60%;
+    min-height: 562px;
+    background-color: lavenderblush;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}
+
+#titleText {
+    font-size: 250%;
+    font-weight: bold;
+    padding:20px;
+    padding-bottom: 0;
+    height:fit-content;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    font-family: "creepyFont"
+}
+
+#description {
+    margin-top: 5%;
+    font-size: 160%;
+    font-family: "creepyBody"
+}
+
+#description2 {
+    margin-top: 7%;
+    font-size: 160%;
+    font-family: "creepyBody";
+}
+
+#restaurant {
+    width:250px;
+    height:250px;
+    margin-top: 6%;
+    border-radius: 200px;
+}
+
+#dish1 {
+    width:250px;
+    height:250px;
+    margin-top: 6%;
+    border-radius: 200px;
+}
+
+#dish2 {
+    width:250px;
+    height:250px;
+    margin-top: 6%;
+    border-radius: 200px;
+}
+
+@font-face {
+    font-family: creepyFont;
+    src: url(Creepster-Regular.ttf)
+}
+
+@font-face {
+    font-family: creepyBody;
+    src: url(MysteryQuest-Regular.ttf)
+}
